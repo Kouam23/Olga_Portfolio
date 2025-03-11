@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appelle-moi maman</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <!-- fav icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">à propos</a></li>
+         
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">à propos</a></li>
+      
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/a black woman therapist counseling a black pregnant woman.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Bonjour, Je suis</p>
+        <h1 class="title">Appelle-moi maman</h1>
+        <p class="section__text__p2">Médical et Santé</p>
+        <div class="btn-container">
+        
+
+          <button class="btn btn-color-1" onclick="location.href ='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/whatsapp.png"
+            alt="My whatsapp profile"
+            class="icon"
+            onclick="location.href= 'https://chat.whatsapp.com/I1dYS3Hxh4VBeSTVFSDJyY'"
+          />
+
+          <img
+            src="./assets/facebook.png"
+            alt="My facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/profile.php?id=61573180344001'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">En savoir plus</p>
+      <h1 class="title">à propos d'Appelle Moi Maman</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/WhatsApp Image.jpg"
+            alt="Profile picture "
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Depuis plus de 3 ans que les femmes sont satisfaite <br />par ma méthode</p></p>
+            </div >
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Nous proposons des solution de fertilité aux couples essayant de concevoire avec des herbes <br /> Et nous avons realiser 500 grossess reussis en deux mois de traitement </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Les cours offerts vous permettront de guérir définitivement des problèmes de vos infections, des myomes, rééquilibrer les hormones, traiter la ménopause précoce, traiter des problèmes au niveau du cycle menstruel (ovulation, absence de règles et bien d'autres)
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="/assets/arrow.png"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+      alt=""/>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Contactez-nous</p>
+      <h1 class="title">Contactez-moi</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/assets/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">mamanappellemoi@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2025 Appelle Moi Maman. Tous droits réservés</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
